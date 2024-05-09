@@ -10,10 +10,13 @@
  height: 100%;
  background: var(--white-color);
  padding-bottom: 40px;
+ border-radius: 4px;
 }
 
 .title {
   padding: 14px 16px;
+  line-height: 28px;
+  padding-bottom: 8px;
 }
 
 thead th{
