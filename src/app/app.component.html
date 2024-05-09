@@ -1,0 +1,33 @@
+<section class="app">
+  <main class="container">
+    <h1 class="title">Товары на складе</h1>
+    <div class="table-container" appHorizontalScroll>
+      <table class="table">
+        <thead class="titles">
+          <th *ngFor="let header of tableHeaders" [style.width]="header.width" (click)="showEditDialog($event, header.field)">
+            <span class="search_field">{{ header.label }}</span>
+            <ng-container *ngIf="header.field !== 'availability'; else availabilityIcon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </ng-container>
+            <ng-template #availabilityIcon>
+              <svg width="16" height="16" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.5 3.5C1.5 3.775 1.725 4 2 4H10C10.275 4 10.5 3.775 10.5 3.5C10.5 3.225 10.275 3 10 3H2C1.725 3 1.5 3.225 1.5 3.5ZM5.5 9H6.5C6.775 9 7 8.775 7 8.5C7 8.225 6.775 8 6.5 8H5.5C5.225 8 5 8.225 5 8.5C5 8.775 5.225 9 5.5 9ZM8.5 6.5H3.5C3.225 6.5 3 6.275 3 6C3 5.725 3.225 5.5 3.5 5.5H8.5C8.775 5.5 9 5.725 9 6C9 6.275 8.775 6.5 8.5 6.5Z" fill="#637381"/>
+              </svg>
+            </ng-template>
+          </th>
+        </thead>
+        <tbody>
+          <tr *ngFor="let row of tableData">
+            <td>{{ row.brand }}</td>  
+            <td>{{ row.article }}</td>
+            <td>{{ row.productName }}</td>
+            <td>{{ row.price }}</td>
+            <td [style.color]="row.availability ? '#00A0E3' : 'black'">{{ row.availability ? "В наличии" : "Нет в наличии"}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</section>
+
+<filter-active-dialog *ngIf="isDialogVisible"  [dataDialog]="dataDialog"   (valueChanged)="updateCriteria(dataDialog.typeFilter, $event)"></filter-active-dialog>

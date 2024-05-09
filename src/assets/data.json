@@ -1,0 +1,260 @@
+[
+ {
+   "brand": "Tefal",
+   "article": "012589632",
+   "productName": "Tefal KI700830 серебристый",
+   "price": "6 490",
+   "availability": true
+ },
+ {
+   
+   "brand": "Tefal",
+   "article": "685321498",
+   "productName": "Электрочайник Tefal Silver Ion BF925231 белый",
+   "price": "7 490",
+   "availability": false
+ },
+ {
+   "brand": "Tefal",
+   "article": "023654896",
+   "productName": "Tefal Loft KO 250130 белый",
+   "price": "5 490",
+   "availability": true
+ },
+ {
+   "brand": "Tefal",
+   "article": "756321954",
+   "productName": "Tefal KI770D30 серебристый",
+   "price": "3 457",
+   "availability": false
+ },
+ {
+   "brand": "Tefal",
+   "article": "012589632",
+   "productName": "Электрочайник Tefal Silver ION BF925232 бежевый",
+   "price": "7 022",
+   "availability": true
+ },
+ {
+   "brand": "Tefal",
+   "article": "012589632",
+   "productName": "Tefal KI700830 серебристый",
+   "price": "6 490",
+   "availability": false
+ },
+ {
+   "brand": "Philips",
+   "article": "785412365",
+   "productName": "Philips HD9321/20 черный",
+   "price": "2 299",
+   "availability": true
+ },
+ {
+  "id": 7,
+   "brand": "Philips",
+   "article": "321478965",
+   "productName": "Philips HD9351/91 черный",
+   "price": "3 499",
+   "availability": false
+ },
+ {
+  "id": 8,
+   "brand": "Philips",
+   "article": "654123987",
+   "productName": "Philips Daily Collection HD9308/00 серый",
+   "price": "2 690",
+   "availability": true
+ },
+ {
+  "id": 9,
+   "brand": "Philips",
+   "article": "785412365",
+   "productName": "Philips HD9321/20 черный",
+   "price": "2 299",
+   "availability": true
+ },
+ {
+  "id": 10,
+   "brand": "Philips",
+   "article": "321478965",
+   "productName": "Philips HD9351/91 черный",
+   "price": "3 499",
+   "availability": false
+ },
+ {
+  "id": 11,
+   "brand": "Philips",
+   "article": "654123987",
+   "productName": "Philips Daily Collection HD9308/00 серый",
+   "price": "2 690",
+   "availability": true
+ },
+ {
+  "id": 12,
+   "brand": "Braun",
+   "article": "987654321",
+   "productName": "Braun PurEase WK3110WH белый",
+   "price": "2 399",
+   "availability": false
+ },
+ {
+  "id": 13,
+   "brand": "Braun",
+   "article": "456987321",
+   "productName": "Braun WK 3110 WH белый",
+   "price": "2 170",
+   "availability": true
+ },
+ {
+  "id": 12,
+   "brand": "Braun",
+   "article": "987654321",
+   "productName": "Braun PurEase WK3110WH белый",
+   "price": "2 399",
+   "availability": false
+ },
+ {
+  "id": 13,
+   "brand": "Braun",
+   "article": "456987321",
+   "productName": "Braun WK 3110 WH белый",
+   "price": "2 170",
+   "availability": true
+ },
+ {
+  "id": 12,
+   "brand": "Braun",
+   "article": "987654321",
+   "productName": "Braun PurEase WK3110WH белый",
+   "price": "2 399",
+   "availability": false
+ },
+ {
+  "id": 13,
+   "brand": "Braun",
+   "article": "456987321",
+   "productName": "Braun WK 3110 WH белый",
+   "price": "2 170",
+   "availability": true
+ },
+ {
+  "id": 12,
+   "brand": "Braun",
+   "article": "987654321",
+   "productName": "Braun PurEase WK3110WH белый",
+   "price": "2 399",
+   "availability": false
+ },
+ {
+  "id": 13,
+   "brand": "Braun",
+   "article": "456987321",
+   "productName": "Braun WK 3110 WH белый",
+   "price": "2 170",
+   "availability": true
+ },
+ {
+  "id": 12,
+   "brand": "Braun",
+   "article": "987654321",
+   "productName": "Braun PurEase WK3110WH белый",
+   "price": "2 399",
+   "availability": false
+ },
+ {
+  "id": 13,
+   "brand": "Braun",
+   "article": "456987321",
+   "productName": "Braun WK 3110 WH белый",
+   "price": "2 170",
+   "availability": true
+ },
+ {
+  "id": 12,
+   "brand": "Braun",
+   "article": "987654321",
+   "productName": "Braun PurEase WK3110WH белый",
+   "price": "2 399",
+   "availability": false
+ },
+ {
+  "id": 13,
+   "brand": "Braun",
+   "article": "456987321",
+   "productName": "Braun WK 3110 WH белый",
+   "price": "2 170",
+   "availability": true
+ },
+ {
+  "id": 12,
+   "brand": "Braun",
+   "article": "987654321",
+   "productName": "Braun PurEase WK3110WH белый",
+   "price": "2 399",
+   "availability": false
+ },
+ {
+  "id": 13,
+   "brand": "Braun",
+   "article": "456987321",
+   "productName": "Braun WK 3110 WH белый",
+   "price": "2 170",
+   "availability": true
+ },
+ {
+  "id": 14,
+   "brand": "Braun",
+   "article": "123654789",
+   "productName": "Braun WK 300 черный",
+   "price": "2 490",
+   "availability": true
+ },
+ {
+  "id": 15,
+   "brand": "Braun",
+   "article": "987654321",
+   "productName": "Braun PurEase WK3110WH белый",
+   "price": "2 399",
+   "availability": false
+ },
+ {
+  "id": 16,
+   "brand": "Braun",
+   "article": "456987321",
+   "productName": "Braun WK 3110 WH белый",
+   "price": "2 170",
+   "availability": true
+ },
+ {
+  "id": 17,
+   "brand": "Braun",
+   "article": "123654789",
+   "productName": "Braun WK 300 черный",
+   "price": "2 490",
+   "availability": true
+ },
+ {
+  "id": 18,
+   "brand": "Russell Hobbs",
+   "article": "852369741",
+   "productName": "Russell Hobbs 21270-70 Legacy Red",
+   "price": "3 790",
+   "availability": true
+ },
+ {
+  "id": 19,
+   "brand": "Russell Hobbs",
+   "article": "369852147",
+   "productName": "Russell Hobbs 20460-70 Oxford Stainless Steel",
+   "price": "3 890",
+   "availability": false
+ },
+ {
+  "id": 20,
+   "brand": "Russell Hobbs",
+   "article": "951753258",
+   "productName": "Russell Hobbs 21272-70 Legacy Cream",
+   "price": "3 490",
+   "availability": true
+ }
+]

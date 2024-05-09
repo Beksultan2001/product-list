@@ -1,0 +1,26 @@
+<div class="modal"  #modal>
+  <div class="modal-content" #modalContent>
+    <ng-container *ngIf="this.dataDialog['typeFilter'] === 'availability'; else filterInput">
+      <div class="field_checkbox">
+        <input type="checkbox" (input)="updateCriteria(this.dataDialog['typeFilter'], $event)" hidden="hidden" id="availability">
+        <label class="switch" for="availability"></label>
+        <p>В наличии</p>
+      </div>
+    </ng-container>
+    
+    <ng-template #filterInput>
+      <div class="field_container">
+        <input type="text" #inputFilter (input)="updateCriteria(this.dataDialog['typeFilter'], $event)" placeholder="Фильтр">
+        <button class="reset-btn" (click)="resetFilter()" #resetBtn>
+          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 0.875L9.125 0L5 4.125L0.875 0L0 0.875L4.125 5L0 9.125L0.875 10L5 5.875L9.125 10L10 9.125L5.875 5L10 0.875Z" fill="#637381"/>
+          </svg>
+        </button>
+      </div>
+    </ng-template>
+      <div class="modal_actions">
+        <button id="Ok" (click)="confirmEdit()">ОК</button>
+        <button id="Cancel" (click)="closeDialog()">Сбросить</button>
+      </div>
+  </div>
+</div>

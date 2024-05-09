@@ -1,0 +1,127 @@
+.app {
+ background: var(--bg-color);
+ width: 100%;
+ min-height: 100vh;
+ padding: 30px;
+}
+
+.container {
+ width: 100%;
+ height: 100%;
+ background: var(--white-color);
+ padding-bottom: 40px;
+}
+
+.title {
+  padding: 14px 16px;
+}
+
+thead th{
+text-align: start;
+ cursor: pointer;
+ font-size: var(--cell-font-size);
+ i {
+  font-size: 14px;
+ }
+}
+
+td {
+ padding: var(--cell-padding);
+ font-size: var(--cell-font-size);
+}
+
+table{
+  width: 100%;
+}
+.titles th{
+  align-items: center;
+  color: var(--filter-bg-color);
+  font-weight: 600;
+  padding: var(--cell-padding);
+  .search_field {
+    display: inline-block;
+    width: calc(100% - 20px);
+  }
+}
+
+.titles{
+  background: var(--bg-color);
+}
+
+ tr:nth-child(even) td {
+  background: var(--even-cell-color);
+}
+ tr:nth-child(odd) td {
+  background: var(--white-color);
+}
+
+.search_field{
+  border: none;
+  background: none;
+  &:focus{
+    outline: none;
+    border: none;
+  }
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  background-color: var(--white-color);
+  z-index: 1;
+}
+
+.table-container {
+  width: 100%;
+  overflow: auto;
+  max-height: 100vh;
+}
+
+.table-container::-webkit-scrollbar {
+  width:  var(--sb-size);
+  height: var(--sb-size);
+}
+
+.table-container::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 18px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 18px;
+  
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  .table-container {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
+}
+
+table {
+  width: max-content;
+  white-space: nowrap; 
+}
+
+table th:first-child{
+  background-color: var(--bg-color);
+}
+table th:first-child,
+table td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 0;  
+}
+
+.scrolled th:first-child::after,
+.scrolled td:first-child::after {
+  content: ''; 
+  position: absolute; 
+  top: 0;
+  right: 0;
+  width: 5px; 
+  height: 100%; 
+  box-shadow: 12px 0px 10px 0px #0000001A;
+  z-index: -1;
+}

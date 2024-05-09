@@ -1,0 +1,18 @@
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
+
+@import url(reset.scss);
+*{
+ box-sizing: border-box; 
+ font-family: 'Open Sans', sans-serif;
+}
+
+body{
+ margin: 0;
+}
+
+.title{
+ font-family: 'Open Sans', sans-serif;
+ font-size: 20px;
+ margin: 0;
+ font-weight: 600;
+}
