@@ -45,11 +45,11 @@ export class AppComponent {
   tableData: FilterCriteria[] = initData;
 
   tableHeaders: TableColumn[] = [
-    { label: 'Бренд', width: '350px', field: 'brand' },
-    { label: 'Артикул', width: '550px', field: 'article' },
+    { label: 'Бренд', width: '280px', field: 'brand' },
+    { label: 'Артикул', width: '280px', field: 'article' },
     { label: 'Наименование товара', width: '609px', field: 'productName' },
-    { label: 'Цена', width: '650px', field: 'price' },
-    { label: 'Наличие', width: '270px', field: 'availability' },
+    { label: 'Цена', width: '280px', field: 'price' },
+    { label: 'Наличие', width: '280px', field: 'availability' },
   ];
 
   criteria: FilterCriteria = {
